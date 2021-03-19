@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}
+Hello {{request.user}}
+{% endblock title %}
+{% block body %}
+<link rel="stylesheet" type="text/css" href="static/colorGame.css">
+<h1>The Great
+	<br>
+	 <span id="colorDisplay">RGB</span>
+	 <br>
+	  Color Game</h1>
+	<div id="mainTab">
+		<button id="NewColor">New Colors</button>
+		<span id="status"></span>
+		<button id="Easy">Easy</button>
+		<button id="Hard" class="selected">Hard</button>
+	</div>
+	<div id="Container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+<script type="text/javascript" src="static/colorGame.js"></script>
+{% endblock body %}
