@@ -1,8 +1,8 @@
 # djangoAuth
-Authentication App
+Authentication App created using bootstrap4 and django.
 * Install Python3
-* Run the below command
-* python manage.py runserver
+* Install django : `pip install django`
+* Run the command : `python manage.py runserver`
 * open localhost:8000
 * create an account
 * login and enjoy
